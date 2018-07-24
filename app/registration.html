@@ -1,0 +1,8 @@
+<div ng-controller="registerCtrl">
+	<form action="/" id="myLogin">
+		Phone Number: <input type="tel" id="phoneNumber" ng-model="phoneNumber" maxlength="10" minlength="10" ng-required="true"><br>
+		Pass Code: <input type="number" id="passCode" ng-model="passCode" maxlength="4" minlength="4" ng-required="true"><br>
+		<button type="button" ng-click="submit()">Submit</button>
+	</form>
+	<a href="#/login">Existing User</a>
+</div>

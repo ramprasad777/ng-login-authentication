@@ -1,0 +1,8 @@
+<div ng-controller="loginCtrl">
+	<form action="/" name="loginForm">
+		Username: <input type="text" id="username" ng-model="username"><br>
+		Password: <input type="password" id="password" ng-model="password"><br>
+		<button type="button" ng-click="submit()" ng-disabled="loginForm.$invalid">Login</button>
+	</form>
+	<a href="#/register">New user</a>
+</div>
